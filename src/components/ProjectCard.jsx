@@ -1,4 +1,37 @@
-import { FaLaravel, FaReact, } from "react-icons/fa";
+import { 
+  FaLaravel, 
+  FaReact, 
+  FaNodeJs, 
+  FaVuejs, 
+  FaJava, 
+  FaDatabase 
+} from "react-icons/fa";
+import { 
+  SiTailwindcss, 
+  SiTypescript,
+  SiVite, 
+  SiSupabase, 
+  SiMysql, 
+  SiPostgresql, 
+  SiOpenai,
+  SiSpringboot 
+} from "react-icons/si";
+
+const techIcons = {
+  "Laravel": <FaLaravel className="text-red-600" title="Laravel" />,
+  "React": <FaReact className="text-blue-400" title="React" />,
+  "TypeScript": <SiTypescript className="text-blue-500" title="TypeScript" />,
+  "Tailwind": <SiTailwindcss className="text-cyan-400" title="Tailwind CSS" />,
+  "Node.js": <FaNodeJs className="text-green-500" title="Node.js" />,
+  "OpenAI": <SiOpenai className="text-green-500" title="OpenAI" />,
+  "Supabase": <SiSupabase className="text-emerald-500" title="Supabase" />,
+  "Mysql": <SiMysql className="text-blue-600" title="MySQL" />,
+  "Vue": <FaVuejs className="text-emerald-400" title="Vue.js" />,
+  "Vite": <SiVite className="text-purple-500" title="Vite" />,
+  "Java": <FaJava className="text-red-500" title="Java" />,
+  "Spring Boot": <SiSpringboot className="text-green-600" title="Spring Boot" />,
+  "PostgreSQL": <SiPostgresql className="text-blue-400" title="PostgreSQL" />,
+};
 export default function ProjectCard({ project }) {
   return (
     <div className="bg-white border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] h-full flex flex-col">
@@ -12,7 +45,7 @@ export default function ProjectCard({ project }) {
         <img 
           src={project.image} 
           alt={project.title} 
-          className="w-full h-48 object-cover"
+          className="w-full h-48 object-cover "
         />
       </div>
 
@@ -23,14 +56,12 @@ export default function ProjectCard({ project }) {
         </p>
         
         {/* Tech Stack Icons (Placeholder) */}
-        <div className="flex gap-3 mb-6 grayscale hover:grayscale-0 transition-all">
-           {/* Masukkan icon teknologi di sini */}
-           <span className="text-2xl">
-            <FaLaravel size={30} className="text-red-500" />
-           </span>
-           <span className="text-2xl">
-            <FaReact size={30} className="text-blue-500" /> 
-           </span>
+        <div className="flex flex-wrap gap-3 mb-6  transition-all">
+          {project.tech.map((item, index) => (
+            <span key={index} className="text-3xl">
+              {techIcons[item] || <FaDatabase className="text-gray-400" />} 
+            </span>
+          ))}
         </div>
 
         <div className="grid grid-cols-2 gap-4">

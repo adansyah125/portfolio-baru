@@ -2,26 +2,34 @@ export const projects = [
   {
     title: "Simbada",
     description: "Sistem informasi manajemen inventaris barang daerah untuk Kecamatan Bandung Kidul.",
-    image: "/images/simbada.jpg",
+    image: "/project/simbada.png",
     sourceCode: "#",
-    demo: "#",
+    demo: "https://simbada-bankid.vercel.app",
     tech: ["Laravel", "React", "Tailwind"]
   },
   {
-    title: "Aplikasi SPP",
-    description: "Aplikasi pembayaran uang sekolah yang terintegrasi dengan Midtrans Payment Gateway.",
-    image: "/sertifikat/serti.png",
+    title: "AI ChatBot",
+    description: "AI ChatBot menggunakan TypeScript dan OpenAI API.",
+    image: "/project/bot.png",
     sourceCode: "#",
     demo: "#",
-    tech: ["React", "Node.js", "Midtrans"]
+    tech: ["TypeScript", "OpenAI"]
   },
   {
-    title: "Tanam Panen",
-    description: "Simulasi aplikasi pertanian dan komersial dengan mekanik masak dan jual.",
-    image: "/syahdan-pp.jpg",
+    title: "Maintenance Mobil",
+    description: "Sistem Maintenance Mobil dan Penjualan Spare Part.",
+    image: "/project/mobil.png",
+    sourceCode: "#",
+    demo: "https://maintenance-mobil.vercel.app",
+    tech: ["React", "Node.js", "Supabase"]
+  },
+  {
+    title: "Tagihan Sekolah",
+    description: "Sistem Tagihan Sekolah Dharma Agung untuk siswa dan guru.",
+    image: "/project/tagihan.png",
     sourceCode: "#",
     demo: "#",
-    tech: ["Flutter", "Dart"]
+    tech: ["Laravel", "Mysql", "Tailwind"]
   },
   {
     title: "Portfolio Vue",
@@ -31,12 +39,5 @@ export const projects = [
     demo: "#",
     tech: ["Vue", "Vite", "Tailwind"]
   },
-  {
-    title: "Inventory System",
-    description: "Sistem pelacakan stok barang real-time dengan dashboard analitik.",
-    image: "/images/inventory.jpg",
-    sourceCode: "#",
-    demo: "#",
-    tech: ["Spring Boot", "Java", "PostgreSQL"]
-  }
+  
 ];

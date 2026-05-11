@@ -58,10 +58,10 @@ export default function GitHubStats() {
         >
           <div className="w-full flex justify-center">
             <img 
-  src="https://ghchart.rshah.org/00FF75/adansyah125" 
-  alt="GitHub Contribution Graph"
-  className="w-full h-auto max-w-4xl"
-/>
+                src="https://ghchart.rshah.org/00FF75/adansyah125" 
+                alt="GitHub Contribution Graph"
+                className="w-full h-auto max-w-4xl"
+              />
           </div>
         </div>
 

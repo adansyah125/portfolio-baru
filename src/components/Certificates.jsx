@@ -15,10 +15,10 @@ export default function Certificates() {
   }, []);
 
   const certs = [
-    { title: "CCNA Network Fundamentals", image: "/sertifikat/serti.png", color: "bg-blue-500" },
-    { title: "Dasar Pemrograman JavaScript", image: "/sertifikat/serti.png", color: "bg-purple-600" },
-    { title: "Back-End Pemula dengan JavaScript", image: "/sertifikat/serti.png", color: "bg-green-500" },
-    { title: "Proyek Akhir Web Developer", image: "/sertifikat/serti.png", color: "bg-orange-500" }
+    { title: "CCNA Network Fundamentals", image: "/serrtifikat/serti.png", color: "bg-blue-500" },
+    { title: "Dasar Pemrograman JavaScript", image: "/serrtifikat/serti.png", color: "bg-purple-600" },
+    { title: "Back-End Pemula dengan JavaScript", image: "/serrtifikat/serti.png", color: "bg-green-500" },
+    { title: "Proyek Akhir Web Developer", image: "/serrtifikat/serti.png", color: "bg-orange-500" }
   ];
 
   return (

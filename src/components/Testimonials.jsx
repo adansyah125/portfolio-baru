@@ -9,24 +9,18 @@ export default function Testimonials() {
 
   const reviews = [
     {
-      name: "Nik Nurlin Nadhira",
-      role: "College Student of UiTM Selangor",
+      name: "Anonymus",
       text: "Saya senang dengan website portofolio yang diberikan Syahdan—terlihat bagus, berjalan lancar, dan mudah dinavigasi serta digunakan di berbagai perangkat.",
-      rating: "5.0",
       color: "border-yellow-400"
     },
     {
-      name: "David Kim",
-      role: "Founder, AI Solutions",
+      name: "Anonymus",
       text: "Sistem inventaris yang dikembangkan Syahdan untuk kami telah merevolusi operasional kami. Pemahamannya tentang teknologi frontend dan backend sangat mengesankan.",
-      rating: "5.0",
       color: "border-blue-500"
     },
     {
-      name: "Lisa Thompson",
-      role: "Director, FinTech Pro",
+      name: "Anonymus",
       text: "Pekerjaan Syahdan pada aplikasi penagihan kami sangat luar biasa. Visualisasi data dan pembaruan real-time bekerja dengan sempurna. Pengembang yang profesional dan andal.",
-      rating: "5.0",
       color: "border-green-500"
     }
   ];
@@ -60,7 +54,6 @@ export default function Testimonials() {
             >
               {/* Rating Star */}
               <div className="flex items-center gap-1 mb-4">
-                <span className="flex text-black">★★★★★</span>
                 <span className="font-black text-sm ml-2">{item.rating}</span>
               </div>
 
@@ -80,7 +73,6 @@ export default function Testimonials() {
                 </div>
                 <div>
                   <h4 className="font-black text-sm uppercase">{item.name}</h4>
-                  <p className="text-[10px] font-bold text-gray-500 uppercase">{item.role}</p>
                 </div>
               </div>
             </div>
