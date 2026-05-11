@@ -9,11 +9,11 @@ export default function Hero() {
 
   // Daftar kata motivasi
   const motivasi = [
-    "Mulai saja dulu, sempurnakan nanti.",
-    "Koding adalah seni memecahkan masalah.",
-    "Setiap error adalah pelajaran berharga.",
-    "Bikin aplikasi itu seru, bukan beban.",
-    "Kopi di tangan, logika di pikiran."
+    "Jika Kamu Lelah",
+    "Bangkitlah!",
+    "Karena Kita Akan Menjadi Figur",
+    "Bagi Jiwa Jiwa",
+    "Yang tumbuh Subur."
   ];
 
   const [displayText, setDisplayText] = useState("");
@@ -98,11 +98,11 @@ export default function Hero() {
         {/* Barisan Tombol (Tidak ikut berayun agar mudah diklik) */}
         <div className="mt-12 flex flex-wrap justify-center gap-4 px-4">
           <a href="#projects" className="bg-[#3B82F6] text-white font-black px-6 py-3 border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all uppercase">
-            Lihat Karya Saya
+            Lihat Proyek
           </a>
           
           <a href="https://wa.me/6289677121092" className="bg-[#00FF75] text-black font-black px-6 py-3 border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all flex items-center gap-2 uppercase">
-             Chat di WhatsApp
+            Hubungi via WhatsApp
           </a>
 
           {/* Social Icons */}

@@ -37,11 +37,11 @@ export default function Testimonials() {
       <div className="max-w-7xl mx-auto px-6">
         
         {/* Judul Section */}
-        <div className="flex justify-center mb-16" data-aos="zoom-in">
+        {/* <div className="flex justify-center mb-16" data-aos="zoom-in">
           <h2 className="text-3xl md:text-5xl font-black bg-white text-black px-10 py-4 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] uppercase">
             Apa Kata Klien
           </h2>
-        </div>
+        </div> */}
 
         {/* Grid Testimonial */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">

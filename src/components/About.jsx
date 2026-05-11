@@ -30,10 +30,12 @@ export default function About() {
 
           {/* Bagian Teks Deskripsi */}
           <div className="flex-1 space-y-6">
-            <h3 className="text-2xl md:text-4xl font-black leading-tight">
-              SAYA <span className="text-blue-600">SYAHDAN MUTAHARIQ</span>, 
-              <span className="bg-[#00FF75] px-2 ml-2 border-2 border-black">LULUSAN S1 TEKNIK INFORMATIKA</span>
+            <h3 className="text-2xl md:text-4xl font-black leading-tight"><span className="text-blue-600">SYAHDAN MUTAHARIQ</span>, 
+               <h3 className="text-2xl md:text-4xl font-black leading-tight">
+            <span className="bg-[#00FF75] px-2 ml-2 border-2 border-black">LULUSAN S1 TEKNIK INFORMATIKA</span>
             </h3>
+            </h3>
+           
 
             <div className="border-l-8 border-[#FF007A] pl-6 py-2">
               <p className="text-lg font-bold leading-relaxed text-gray-800 text-justify">
@@ -47,7 +49,7 @@ export default function About() {
                 <div className="text-[#FF007A] text-2xl">📍</div>
                 <div>
                   <p className="font-black text-sm uppercase">Lokasi</p>
-                  <p className="font-bold text-gray-600">Bandung, Indonesia</p>
+                  <p className="font-bold text-gray-600">Bandung, Jawa Barat</p>
                 </div>
               </div>
 
