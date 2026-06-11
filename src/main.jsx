@@ -5,7 +5,7 @@ import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
 import Projects from './components/Projects.jsx'
 import Skills from './components/Skills.jsx'
-import Certificates from './components/Certificates.jsx'
+// import Certificates from './components/Certificates.jsx'
 import Testimonials from './components/Testimonials.jsx'
 import GitHubStats from './components/GitHubStats.jsx'
 import Contact from './components/Contact.jsx'
@@ -18,7 +18,7 @@ createRoot(document.getElementById('root')).render(
     <About />
     <Projects />
     <Skills />
-    <Certificates />
+    {/* <Certificates /> */}
     <Testimonials /> 
     <GitHubStats /> 
     <Contact /> 

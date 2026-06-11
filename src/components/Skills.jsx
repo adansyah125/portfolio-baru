@@ -2,23 +2,43 @@ import {
   FaGithub, 
   FaHtml5, 
   FaCss3Alt, 
-  FaJs 
+  FaJs,
+  FaReact,
+  FaNodeJs
 } from "react-icons/fa";
 
 import { 
   SiVercel, 
   SiPostman, 
-  SiTailwindcss 
+  SiTailwindcss,
+  SiTypescript,
+  SiPhp,
+  SiNextdotjs,
+  SiExpress,
+  SiGo,
+  SiLaravel,
+  SiNetlify,
+  SiFlutter
 } from "react-icons/si";
 
 export default function Skills() {
   const skills = [
-    { name: "GITHUB", icon: <FaGithub size={30} className="text-black" /> },
-    { name: "VERCEL", icon: <SiVercel size={30} className="text-black" /> },
-    { name: "POSTMAN", icon: <SiPostman size={30} className="text-orange-500" /> },
     { name: "HTML5", icon: <FaHtml5 size={30} className="text-orange-600" /> },
     { name: "CSS3", icon: <FaCss3Alt size={30} className="text-blue-500" /> },
     { name: "JS", icon: <FaJs size={30} className="text-yellow-400" /> },
+    { name: "TYPESCRIPT", icon: <SiTypescript size={30} className="text-blue-600" /> },
+    { name: "PHP", icon: <SiPhp size={30} className="text-indigo-600" /> },
+    { name: "REACT", icon: <FaReact size={30} className="text-cyan-500" /> },
+    { name: "NEXT.JS", icon: <SiNextdotjs size={30} className="text-black" /> },
+    { name: "NODE.JS", icon: <FaNodeJs size={30} className="text-green-600" /> },
+    { name: "EXPRESS", icon: <SiExpress size={30} className="text-black" /> },
+    { name: "GOLANG", icon: <SiGo size={30} className="text-cyan-600" /> },
+    { name: "LARAVEL", icon: <SiLaravel size={30} className="text-red-600" /> },
+    { name: "VERCEL", icon: <SiVercel size={30} className="text-black" /> },
+    { name: "NETLIFY", icon: <SiNetlify size={30} className="text-teal-500" /> },
+    { name: "FLUTTER", icon: <SiFlutter size={30} className="text-blue-400" /> },
+    { name: "GITHUB", icon: <FaGithub size={30} className="text-black" /> },
+    { name: "POSTMAN", icon: <SiPostman size={30} className="text-orange-500" /> },
     { name: "TAILWIND", icon: <SiTailwindcss size={30} className="text-cyan-400" /> },
   ];
 

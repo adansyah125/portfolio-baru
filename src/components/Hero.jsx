@@ -82,7 +82,7 @@ export default function Hero() {
           {/* Role - Papan Pink & Biru */}
           <div className="flex justify-center items-start -mt-2">
             <h2 className="text-xl md:text-3xl font-black bg-[#FF007A] text-white px-6 py-2 border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] z-20">
-             Fullstack Developer & Software Engineer
+              Software Engineer
             </h2>
             
             <div className="w-16 h-12 bg-[#3B82F6] border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] -ml-2 mt-4 hidden md:block"></div>
