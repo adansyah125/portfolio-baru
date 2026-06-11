@@ -26,6 +26,7 @@ export default function Projects() {
           <div className="flex gap-4">
             <button 
               ref={prevRef}
+              aria-label="Proyek sebelumnya"
               className="bg-yellow-400 p-3 border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px] active:bg-white transition-all z-10"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 stroke-[4px]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -34,6 +35,7 @@ export default function Projects() {
             </button>
             <button 
               ref={nextRef}
+              aria-label="Proyek selanjutnya"
               className="bg-yellow-400 p-3 border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px] active:bg-white transition-all z-10"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 stroke-[4px]" fill="none" viewBox="0 0 24 24" stroke="currentColor">

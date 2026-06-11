@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import SEO from './SEO';
+
 export default function Hero() {
   const scrollToNextSection = () => {
     const nextSection = document.getElementById('about');
@@ -48,6 +50,33 @@ export default function Hero() {
 
   return (
     <>
+      <SEO />
+
+      {/* JSON-LD Structured Data */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Syahdan Mutahariq",
+          "alternateName": "Syahdan",
+          "jobTitle": "Software Engineer",
+          "url": "https://syahdan.vercel.app",
+          "email": "adansyah225@gmail.com",
+          "image": "https://syahdan.vercel.app/syahdan-pp.jpg",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bandung",
+            "addressRegion": "Jawa Barat",
+            "addressCountry": "Indonesia"
+          },
+          "knowsAbout": ["Web Development", "React", "Laravel", "Node.js", "TypeScript", "Tailwind CSS"],
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "STMIK Mardira Indonesia"
+          }
+        })}
+      </script>
+
       {/* Definisi Animasi Ayunan (Swing) */}
       <style>{`
         @keyframes swing {

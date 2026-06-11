@@ -44,7 +44,8 @@ export default function ProjectCard({ project }) {
         </div>
         <img 
           src={project.image} 
-          alt={project.title} 
+          alt={`Proyek ${project.title} oleh Syahdan Mutahariq`} 
+          loading="lazy"
           className="w-full h-48 object-cover "
         />
       </div>

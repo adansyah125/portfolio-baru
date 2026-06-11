@@ -1,0 +1,5 @@
+# robots.txt for syahdan.vercel.app
+User-agent: *
+Allow: /
+
+Sitemap: https://syahdan.vercel.app/sitemap.xml
