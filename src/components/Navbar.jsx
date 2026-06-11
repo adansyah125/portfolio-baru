@@ -10,7 +10,7 @@ export default function Navbar() {
     { name: "Tentang", href: "#about" },
     { name: "Proyek", href: "#projects" },
     { name: "Keahlian", href: "#skills" },
-    { name: "Sertifikat", href: "#certificates" },
+    // { name: "Sertifikat", href: "#certificates" },
     { name: "Testimonial", href: "#testimonials" },
     { name: "Github", href: "#github" },
     { name: "Kontak", href: "#contact" },
