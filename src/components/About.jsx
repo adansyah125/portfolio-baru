@@ -22,7 +22,8 @@ export default function About() {
             <div className="relative bg-white border-4 border-black p-3 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] z-10 -rotate-2 group-hover:rotate-0 transition-transform duration-300">
               <img 
                 src="/syahdan-pp.jpg" 
-                alt="Syahdan Mutahariq" 
+                alt="Foto profil Syahdan Mutahariq - Software Engineer" 
+                loading="lazy"
                 className="w-64 h-64 md:w-80 md:h-80 object-cover border-2 border-black"
               />
             </div>
